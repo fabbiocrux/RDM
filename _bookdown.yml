@@ -1,5 +1,6 @@
-book_filename: "RDM"
+book_filename: "Cours: Résistance des Matériaux"
 delete_merged_file: true
+output_dir: "docs"
 language:
   ui:
     chapter_name: "Chapter "

@@ -41,3 +41,6 @@ vignettes/*.pdf
 
 # Fichiers de Libros
 Libros/
+
+# Files from bookdown
+_bookdown_files

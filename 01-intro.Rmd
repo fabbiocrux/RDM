@@ -1,21 +1,29 @@
-# Introduction {#intro}
+# Introduction
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+## Plan du cours {#intro}
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+1. Introduction
+  - Modalités de déroulemen et validation du module RDM
+  - La Mécanique, la Résistances des Matériaux
+  - Dimensionnement des structures
+  
+1. Notions sur les torseurs
+1. Géometrie des poutres
+1. Statique
+1. Expérience fondamentale
+1. Bilan des hypothèses
+1. Applications: Sollicitations simples
+  - Traction - compression
+  - Flexion
+1. Dimensionnement
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+## Equipe Pédagogique
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+## Séquences d'enseignement du module
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+- 12 séances de cours
+- 11 séances de Travaux dirigés
+- 1 Conférence industrielle
+
+## Répartition des séquences d’enseignement
