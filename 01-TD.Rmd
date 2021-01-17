@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-Soit $(O;i, j, k)$ un repère orthonormé direct. On note $(x, y, z)$ les coordonnés du point $P$ et on considère le champ de vecteurs $H(P)$ suivant:
+Soit $(O; i, j, k)$ un repère orthonormé direct. On note $(x, y, z)$ les coordonnés du point $P$ et on considère le champ de vecteurs $\vec{H(P)}$ suivant:
 
 
 $$
@@ -13,7 +13,7 @@ H(P) =
 -w(x - x_{0}) \sin(\theta) + \frac{v}{\cos(\theta)} \\
 \end{bmatrix}
 $$
-où $x_{0}$
+où $x_{0}, y_{0}, \omega, \theta, v$ sont des constantes.
 
 
 ### Questions {-}
