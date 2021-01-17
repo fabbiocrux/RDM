@@ -1,6 +1,6 @@
-# Introduction
+# Introduction {-}
 
-## Plan du cours {#intro}
+## Plan du cours {-}
 
 1. Introduction
   - Modalités de déroulemen et validation du module RDM
@@ -18,12 +18,12 @@
 1. Dimensionnement
 
 
-## Equipe Pédagogique
+## Equipe Pédagogique {-}
 
-## Séquences d'enseignement du module
+## Séquences d'enseignement du module {-}
 
 - 12 séances de cours
 - 11 séances de Travaux dirigés
 - 1 Conférence industrielle
 
-## Répartition des séquences d’enseignement
+## Répartition des séquences d’enseignement {-}

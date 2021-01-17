@@ -1,0 +1,70 @@
+# Application sur la notions de torseur
+
+## Exercise 1
+
+Soit $(O;i, j, k)$ un repère orthonormé direct. On note $(x, y, z)$ les coordonnés du point $P$ et on considère le champ de vecteurs $H(P)$ suivant:
+
+
+$$
+H(P) = 
+\begin{bmatrix}
+-w[(y - y_{0}) \cos(\theta) + z\sin(\theta) ] \\
+-w(x - x_{0}) \cos(\theta) \\
+-w(x - x_{0}) \sin(\theta) + \frac{v}{\cos(\theta)} \\
+\end{bmatrix}
+$$
+où $x_{0}$
+
+
+### Questions {-}
+
+1. Montrer que le champ de vecteurs $\vec{H(P)}$ est équiprojectif. Conclure
+
+
+2. Déterminer les coordonnées vectorielles $R(\tau)$ et $M(\tau, A)$ au  point de réduction $A$ de coordonnées $(x_{0}, y_{0}), 0$
+
+## Exercise 2: Statique
+
+Une porte blindée est articulée sur le mur au point $O$ par l'intermédiaire de deux gonds renforcés aux points **A** et **B**, le poids **P** de la porte est de 2000N (voir figure 1).
+
+### Questions {-}
+
+1.  Écrire les torseurs de liaison aux point **A**, **B** et **G**, sachant que l'action exercée en **B** par le mur est contenue dans le plan horizontalement passant par le point **B**.\
+    On suppose : liaison linéaire annulaire en **B** et rotule en **A**.
+
+2.  Appliquer le principe fondamental de la statique.
+
+3.  En déduire les réactions de liaison en **A** et en **B**.
+
+
+## Exercise 3
+
+Une enseigne lumineuse d'une librairie a une liaison rotule avec le mur au point **A** (figure 2).\
+Elle est soutenue au point **D** par deux câbles **BD** et **CD** de même longueur.
+
+Le poids **P** de l'enseigne est égal à 500N.
+
+
+### Questions {-}
+
+1.  Écrire les torseurs de liaison aux points **A**, **G**, **D**, définissant les actions sur l'enseigne.
+2. Appliquer le principe fondamental de la statique.
+3. En déduire la tension dans les câble
+
+
+## Liaisons mécaniques normalisées
+
+
+
+
+### Remarques :
+
+1. Un degrés de liberté égal à zéro est un degrés de liberté supprimé.
+
+2. Un degrés de liberté de translation supprimée correspond à une inconnue en force dans le torseur de liaison.
+Un degrés de liberté de rotation supprimée correspond à une inconnue en moment dans le torseur de liaison.
+
+3. Exemple : La liaison linéaire annulaire a quatre degrés de liberté : une translation et trois rotations. Elle introduit donc 2 inconnues de liaison (2 forces).
+Cette liaison est semblable à la liaison rotule, mais l'objet entourant la sphère mobile n'a plus la symétrie sphérique mais devient un demi-cylindre creux ce qui permet de déplacer la sphère en translation.
+
+

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>TD’s: Résistances de Matériaux - EEIGM - ENSGSI</title>
+  <title>TD 1 Application sur la notions de torseur | TD’s: Résistances de Matériaux - EEIGM - ENSGSI</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="TD’s: Résistances de Matériaux - EEIGM - ENSGSI" />
+  <meta property="og:title" content="TD 1 Application sur la notions de torseur | TD’s: Résistances de Matériaux - EEIGM - ENSGSI" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="TD’s: Résistances de Matériaux - EEIGM - ENSGSI" />
+  <meta name="twitter:title" content="TD 1 Application sur la notions de torseur | TD’s: Résistances de Matériaux - EEIGM - ENSGSI" />
   
   <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="application-sur-la-notions-de-torseur.html"/>
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="td-2.html"/>
 <script src="libs/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -127,53 +127,68 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">TD’s: Résistances de Matériaux - EEIGM - ENSGSI</h1>
-<p class="author"><em>Olivier FARGE, Fangkai XUE et Fabio CRUZ</em></p>
-<p class="date"><em>2021-01-17</em></p>
-</div>
-<div id="introduction" class="section level1 unnumbered">
-<h1>Introduction</h1>
-<div id="plan-du-cours" class="section level2 unnumbered">
-<h2>Plan du cours</h2>
+<div id="application-sur-la-notions-de-torseur" class="section level1" number="1">
+<h1><span class="header-section-number">TD 1</span> Application sur la notions de torseur</h1>
+<div id="exercise-1" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Exercise 1</h2>
+<p>Soit <span class="math inline">\((O;i, j, k)\)</span> un repère orthonormé direct. On note <span class="math inline">\((x, y, z)\)</span> les coordonnés du point <span class="math inline">\(P\)</span> et on considère le champ de vecteurs <span class="math inline">\(H(P)\)</span> suivant:</p>
+<p><span class="math display">\[
+H(P) = 
+\begin{bmatrix}
+-w[(y - y_{0}) \cos(\theta) + z\sin(\theta) ] \\
+-w(x - x_{0}) \cos(\theta) \\
+-w(x - x_{0}) \sin(\theta) + \frac{v}{\cos(\theta)} \\
+\end{bmatrix}
+\]</span>
+où <span class="math inline">\(x_{0}\)</span></p>
+<div id="questions" class="section level3 unnumbered">
+<h3>Questions</h3>
 <ol style="list-style-type: decimal">
-<li>Introduction</li>
-</ol>
-<ul>
-<li>Modalités de déroulemen et validation du module RDM</li>
-<li>La Mécanique, la Résistances des Matériaux</li>
-<li>Dimensionnement des structures</li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>Notions sur les torseurs</li>
-<li>Géometrie des poutres</li>
-<li>Statique</li>
-<li>Expérience fondamentale</li>
-<li>Bilan des hypothèses</li>
-<li>Applications: Sollicitations simples</li>
-</ol>
-<ul>
-<li>Traction - compression</li>
-<li>Flexion</li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>Dimensionnement</li>
+<li><p>Montrer que le champ de vecteurs <span class="math inline">\(\vec{H(P)}\)</span> est équiprojectif. Conclure</p></li>
+<li><p>Déterminer les coordonnées vectorielles <span class="math inline">\(R(\tau)\)</span> et <span class="math inline">\(M(\tau, A)\)</span> au point de réduction <span class="math inline">\(A\)</span> de coordonnées <span class="math inline">\((x_{0}, y_{0}), 0\)</span></p></li>
 </ol>
 </div>
-<div id="equipe-pédagogique" class="section level2 unnumbered">
-<h2>Equipe Pédagogique</h2>
 </div>
-<div id="séquences-denseignement-du-module" class="section level2 unnumbered">
-<h2>Séquences d’enseignement du module</h2>
-<ul>
-<li>12 séances de cours</li>
-<li>11 séances de Travaux dirigés</li>
-<li>1 Conférence industrielle</li>
-</ul>
+<div id="exercise-2-statique" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Exercise 2: Statique</h2>
+<p>Une porte blindée est articulée sur le mur au point <span class="math inline">\(O\)</span> par l’intermédiaire de deux gonds renforcés aux points <strong>A</strong> et <strong>B</strong>, le poids <strong>P</strong> de la porte est de 2000N (voir figure 1).</p>
+<div id="questions-1" class="section level3 unnumbered">
+<h3>Questions</h3>
+<ol style="list-style-type: decimal">
+<li><p>Écrire les torseurs de liaison aux point <strong>A</strong>, <strong>B</strong> et <strong>G</strong>, sachant que l’action exercée en <strong>B</strong> par le mur est contenue dans le plan horizontalement passant par le point <strong>B</strong>.<br />
+On suppose : liaison linéaire annulaire en <strong>B</strong> et rotule en <strong>A</strong>.</p></li>
+<li><p>Appliquer le principe fondamental de la statique.</p></li>
+<li><p>En déduire les réactions de liaison en <strong>A</strong> et en <strong>B</strong>.</p></li>
+</ol>
 </div>
-<div id="répartition-des-séquences-denseignement" class="section level2 unnumbered">
-<h2>Répartition des séquences d’enseignement</h2>
+</div>
+<div id="exercise-3" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Exercise 3</h2>
+<p>Une enseigne lumineuse d’une librairie a une liaison rotule avec le mur au point <strong>A</strong> (figure 2).<br />
+Elle est soutenue au point <strong>D</strong> par deux câbles <strong>BD</strong> et <strong>CD</strong> de même longueur.</p>
+<p>Le poids <strong>P</strong> de l’enseigne est égal à 500N.</p>
+<div id="questions-2" class="section level3 unnumbered">
+<h3>Questions</h3>
+<ol style="list-style-type: decimal">
+<li>Écrire les torseurs de liaison aux points <strong>A</strong>, <strong>G</strong>, <strong>D</strong>, définissant les actions sur l’enseigne.</li>
+<li>Appliquer le principe fondamental de la statique.</li>
+<li>En déduire la tension dans les câble</li>
+</ol>
+</div>
+</div>
+<div id="liaisons-mécaniques-normalisées" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Liaisons mécaniques normalisées</h2>
+<div id="remarques" class="section level3" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Remarques :</h3>
+<ol style="list-style-type: decimal">
+<li><p>Un degrés de liberté égal à zéro est un degrés de liberté supprimé.</p></li>
+<li><p>Un degrés de liberté de translation supprimée correspond à une inconnue en force dans le torseur de liaison.
+Un degrés de liberté de rotation supprimée correspond à une inconnue en moment dans le torseur de liaison.</p></li>
+<li><p>Exemple : La liaison linéaire annulaire a quatre degrés de liberté : une translation et trois rotations. Elle introduit donc 2 inconnues de liaison (2 forces).
+Cette liaison est semblable à la liaison rotule, mais l’objet entourant la sphère mobile n’a plus la symétrie sphérique mais devient un demi-cylindre creux ce qui permet de déplacer la sphère en translation.</p></li>
+</ol>
 
+</div>
 </div>
 </div>
             </section>
@@ -181,8 +196,8 @@
           </div>
         </div>
       </div>
-
-<a href="application-sur-la-notions-de-torseur.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="td-2.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

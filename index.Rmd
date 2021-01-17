@@ -1,6 +1,6 @@
 --- 
-title: "Travaux dirigés: Résistances de Matériaux -- ENSGSI"
-author: "Olivier FARGE & Fabio CRUZ"
+title: "TD's: Résistances de Matériaux - EEIGM - ENSGSI"
+author: "Olivier FARGE, Fangkai XUE et Fabio CRUZ"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -15,4 +15,7 @@ description: "This is a minimal example of using the bookdown package to write a
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
+
+#bookdown::render_book("index.Rmd", "bookdown::pdf_book")
+
 ```

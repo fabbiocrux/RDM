@@ -1,0 +1,17 @@
+# Flexion dans le cadre de Navier Bernouilli
+
+## Exercise 1
+
+Soit $(A: i_{0}, j_{0}, k_{0}$ un repère orthonormé direct de réference.
+On considère une poutre de longeur $2L$ et de section droite de forme rectangulaire de largeur $b$ et de hauteur $h$.
+Cette poutre est chargée au point C avec une force concentrée et a les lieaisons suivantes:
+
+- Une articulation au point $B$.
+- Une appui simple au point $A$
+
+Pour l'application numérique, on donne: 
+- $2L = 1m$
+- $F=1000 N$
+
+
+
