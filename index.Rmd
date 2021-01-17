@@ -19,3 +19,18 @@ knitr::write_bib(c(
 #bookdown::render_book("index.Rmd", "bookdown::pdf_book")
 
 ```
+
+# Résistances des Matériaux {-}
+
+## Planning {-}
+
+```{r echo=FALSE, out.width = "600pt", fig.align='center', cache=TRUE}
+knitr::include_graphics('Figures/Organization-01.png')
+```
+
+
+```{r echo=FALSE, out.width = "600pt", fig.align='center', cache=TRUE}
+knitr::include_graphics('Figures/Organization-02.png')
+```
+
+
