@@ -1,4 +1,4 @@
-book_filename: "TDs Résistance des Matériaux"
+book_filename: "TDs-RDM"
 delete_merged_file: true
 output_dir: "docs"
 language:
